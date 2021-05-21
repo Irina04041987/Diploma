@@ -11,8 +11,6 @@ public class SQLUtils {
         String Urldbase = System.getProperty("url.dbase");
         final Connection connection = DriverManager.getConnection(
                 Urldbase, "app", "pass");
-              //  "jdbc:mysql://127.0.0.1:3306/app", "app", "pass");
-        //"jdbc:postgresql://localhost:5432/postgres", "app", "pass");
         return connection;
     }
 
